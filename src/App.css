@@ -1,85 +1,13 @@
+/* :root{
+    --primary-bg-color:black;
+}
 .app{
-    
-    width:auto;
-    padding: 10px 20px;
-    background-color: #011627;
+    height:100%;
+    background: var(--primary-bg-color);
+    overflow-x: hidden;
 }
-.app_content{
-   
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.app_content_hero{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background:url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80") #444444;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.app_content_project{
-    background-color: #FDFFFC;
-    padding: 10px 20px;
-}
-.app_content_project>h1{
-    color: #E71D36;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px;
-}
+ */
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.app_content_project,.about_text>h5{
-    font-family: 'Zen Dots', sans-serif; 
-    color:#011627;
-    font-size: 18px;
-    word-spacing: 2px;
-    padding: 10px 20px;
-}
-.app_content_skill{
-    padding: 10px 20px;
-    background-image: url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
  
-
-  /* Set a specific height */
-  min-height: 600px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.app_content_about{
-   background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:0px;
-   
-}
-.about_info,.app_content_about{
-    padding: 10px 20px;
-}
-.about_text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.about_text>h1{
-    color: #E71D36;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px;
-}
-.about_img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.about_img>img{
-    object-fit: contain;
-    height:300px;
-    
-}

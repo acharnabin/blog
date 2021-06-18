@@ -1,0 +1,16 @@
+.blogcard_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.blogpage>h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #004e98;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+  }

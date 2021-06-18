@@ -1,0 +1,48 @@
+.home {
+  padding: 10px 20px;
+}
+
+.home_top > img {
+  height: 200px;
+  border: 2px solid black;
+  object-fit: contain;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_top_info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 20px;
+}
+.homeh3 {
+  font-size: 30px;
+  color: #004e98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.homeh5 {
+  font-size: 20px;
+  color: #004e98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.homeP{
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  
+}
+
+.hometitle{
+  font-size: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color:white;
+  line-height: 2;
+  background-color: #004e98;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}

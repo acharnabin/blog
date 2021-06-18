@@ -1,0 +1,21 @@
+.create_blog_container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.create_blog_container>h5{
+    font-size: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color:white;
+    line-height: 2;
+    background-color: #004e98;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.create_blog_form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}

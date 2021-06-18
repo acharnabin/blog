@@ -1,0 +1,29 @@
+.blogDetails {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.blogDetails > img {
+  height: 500px;
+  object-fit: contain;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+}
+
+.blogDetails > p {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+.blogDetails > h3 {
+    font-size: 30px;
+  color:#004e98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  
+}

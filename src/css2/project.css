@@ -1,0 +1,39 @@
+.project_item {
+  max-width: 350px;
+  background-color: #e0f7fa;
+ 
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+.project {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+.project_item:hover {
+  border-bottom: 3px solid #004e98;
+}
+.project_item > img {
+  max-height: 180px;
+}
+.project_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project_card-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #004e98;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #004e98;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+}
